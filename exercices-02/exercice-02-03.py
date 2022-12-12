@@ -5,3 +5,9 @@
 
 # réponse 2.3
 
+
+number2 = 2.7182
+print(number2)
+
+number2_int = number2
+print(int(number2_int))
