@@ -7,3 +7,9 @@
 
 # réponse 2.4
 
+number3 = 2.7182
+number3_rounded = 271.82
+print(number3_rounded)
+
+number3_int = print(int(number3_rounded))
+
