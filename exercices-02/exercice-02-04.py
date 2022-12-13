@@ -11,6 +11,7 @@
 number3 = 2.7182
 number3_rounded = round(2.71282,2)
 print(number3_rounded)
+réponse : 2.71
 
 number3_int = print(int(number3_rounded))
-
+réponse : 2
