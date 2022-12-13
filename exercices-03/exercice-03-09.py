@@ -13,5 +13,18 @@
 price_alpha = 2.00
 price_beta = 1.70
 
-# réponse 3.9
 
+weight_alpha = 0.12
+weight_beta =  0.10
+
+price_per_kilo_alpha = price_alpha * 100 / weight_alpha
+print(price_per_kilo_alpha)
+réponse = 1666.6666666666667 
+
+price_per_kilo_beta = price_beta * 100 / weight_beta
+print(price_per_kilo_beta)
+réponse = 1700.0 
+
+alpha = True
+beta = False
+print(alpha)
