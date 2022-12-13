@@ -7,6 +7,8 @@
 
 number1 = 2
 print(number1)
+réponse : 2
 
 number1_float = number1
 print(float(number1_float))
+réponse : 2.0
