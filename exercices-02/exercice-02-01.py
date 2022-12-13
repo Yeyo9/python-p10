@@ -11,15 +11,20 @@
 
 answer = "42"
 print(answer)
+réponse : 42
 
 golden_ratio = "1,61"
 print (golden_ratio)
+réponse : 1,61
 
 fullname = "Salut Ben Lahsen Youssef"
 print(fullname)
+réponse : Salut Ben Lahsen Youssef
 
 love_python = True
 print(love_python)
+réponse : True
 
 license_agreement = None
 print(license_agreement)
+réponse : None
