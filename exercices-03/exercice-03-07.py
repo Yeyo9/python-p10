@@ -7,8 +7,12 @@
 # Calculez le montant de la TVA à partir du prix HTVA et du taux de TVA en une seule étape et stockez le résultat dans la variable `tax_fee`.
 # Affichez le résultat.
 
-price = 314.00
-tax_rate = 20
+price = 314.00 # prix HTVA
+tax_rate = 20 # taux de TVA en pourcentage (c-à-d le nombre 20 si la TVA est de 20 %)
 
-# réponse 3.7
+
+
+tax_fee = price / 100 * tax_rate
+print(tax_fee) 
+réponse = 62.800000000000004
 
