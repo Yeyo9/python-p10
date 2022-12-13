@@ -11,5 +11,13 @@ candies = 15
 chocolates = 17
 friends = 3
 
-# réponse 3.2
+candies_rest = candies // friends
+print(candies_rest)
+réponse : 5
+
+chocolates_rest = chocolates // friends
+print(chocolates_rest)
+réponse : 5
+
+
 
