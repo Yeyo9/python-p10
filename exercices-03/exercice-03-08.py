@@ -10,8 +10,10 @@
 # Ci-dessous la variable price contient le prix HTVA et la variable tax_rate contient le taux de la TVA en pourcentage (c-à-d le nombre 20 si la TVA est de 20 %).
 # Calculez le prix TTC à partir du prix HTVA et du taux de TVA en une seule étape et stockez le résultat dans la variable `tax_included_price puis affichez-le`.
 
-price = 271.00
-tax_rate = 20
+price = 271.00 # prix HTVA
+tax_rate = 20 # le taux de tva en pourcentage
 
-# réponse 3.8
 
+tax_included_price = price + price * 20 / 100
+print(tax_included_price)
+réponse = 325.2
