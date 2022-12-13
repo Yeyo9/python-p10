@@ -11,13 +11,13 @@ candies = 15
 chocolates = 17
 friends = 3
 
-candies_rest = candies // friends
+candies_rest = candies - friends
 print(candies_rest)
-réponse : 5
+réponse : 12
 
-chocolates_rest = chocolates // friends
+chocolates_rest = chocolates - friends
 print(chocolates_rest)
-réponse : 5
+réponse : 14
 
 
 
