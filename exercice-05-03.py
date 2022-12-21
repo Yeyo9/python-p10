@@ -9,3 +9,14 @@ Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deseru
 
 # réponse 5.3
 
+
+
+print(my_text[12:21])
+#ça affiche "dolor sit" 
+
+
+
+#alors que
+
+#print(my_text[12:20])
+#ça affiche "dolor si" 
