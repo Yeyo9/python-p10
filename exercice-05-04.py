@@ -1,3 +1,4 @@
+
 # exo 5.4
 # Scindez la variable `my_text` en utilisant l'espace comme séparateur et affectez le résultat à une autre variable.
 # Affichez le mot qui se trouve à l'index 5 de la liste ; le résultat devrait être `consectetur`
@@ -9,3 +10,10 @@ Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deseru
 
 # réponse 5.4
 
+
+
+x = my_text.split()
+
+print(x)
+
+print(x[5])
